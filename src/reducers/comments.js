@@ -133,7 +133,7 @@ export default function ng(state = [], action) {
 			// const myStory = allStories[currentStoryId] ? [ ...allStories[currentStoryId] ] : []
 			allComments.push(myComment)
 			// allStories[currentStoryId] = myStory
-			return {...state, comments: allComments}
+			return {...state, comments: allComments, noComments: false}
 
 
 			// const myMeetingId = action.payload.meetingId;

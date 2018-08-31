@@ -1,4 +1,4 @@
-const cacheName = 'NG_COMMENTS_PWA_1_3';
+const cacheName = 'NG_COMMENTS_PWA_1_4';
 const filesToCache = [
     '/',
     '/index.html',
